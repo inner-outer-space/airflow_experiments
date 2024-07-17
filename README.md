@@ -13,7 +13,8 @@ COMPONENTS
   - Reddis service - message broker that for frowards messages from the scheduler to worker
   - Flower App - for monitoring the workers available on localhost: 5555
   
+### BASIC SET UP
 
-
+For Linux, the quick-start needs the know host and needs to have the group user-id 
 
 
