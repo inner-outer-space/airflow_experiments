@@ -1,6 +1,37 @@
 # keys 
 *.json
 
+# Airflow
+airflow/logs/
+airflow/plugins/
+airflow/variables/
+airflow/connections/
+airflow/*.db
+airflow/*.log
+airflow/*.err
+airflow/*.out
+airflow/*.pid
+airflow/*.cfg
+airflow/*.conf
+
+# Ignore compiled files
+*.pyc
+
+# Ignore environment specific files
+.env
+.env.*
+
+# Ignore system files
+.DS_Store
+
+# Ignore any backup files
+*.bak
+*~
+
+# Ignore any temporary files
+.tmp
+.temp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
